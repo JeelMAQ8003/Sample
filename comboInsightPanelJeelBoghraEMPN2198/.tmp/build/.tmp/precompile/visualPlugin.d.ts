@@ -1,0 +1,4 @@
+import powerbiVisualsApi from "powerbi-visuals-api";
+import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
+declare var comboInsightPanelJeelBoghraEMPN2198A7F3291BC4D5E8A16F2C093B4D7E1F52: IVisualPlugin;
+export default comboInsightPanelJeelBoghraEMPN2198A7F3291BC4D5E8A16F2C093B4D7E1F52;

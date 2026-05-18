@@ -1,0 +1,32 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Category",
+      "name": "category",
+      "kind": "Grouping",
+      "description": "Category axis — Customer Name, Product, Region, etc."
+    },
+    {
+      "displayName": "Measure",
+      "name": "measure",
+      "kind": "Measure",
+      "description": "Primary numeric measure — Sales, Revenue, Profit, etc."
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": { "in": "category" },
+          "dataReductionAlgorithm": { "top": { "count": 50 } }
+        },
+        "values": {
+          "select": [{ "bind": { "to": "measure" } }]
+        }
+      }
+    }
+  ],
+  "objects": {},
+  "tooltips": { "supportedTypes": { "default": true } },
+  "privileges": []
+}

@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "comboInsightPanelJeelBoghraEMPN2198",
+    "displayName": "Combo Insight Panel by Jeel EMPN2198",
+    "guid": "comboInsightPanelJeelBoghraEMPN2198A7F3291BC4D5E8A16F2C093B4D7E1F52",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "A unique 3-in-1 combo visual: KPI Cards + Animated Bar Chart + Donut Chart — all in one panel. Built by Jeel Boghra (EMPN2198).",
+    "supportUrl": "https://github.com/JeelBoghra/EMPN2198",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Jeel Boghra",
+    "email": "EMPN2198@student.edu"
+  },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}

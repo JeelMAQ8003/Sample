@@ -1,0 +1,21 @@
+{
+  "visual": {
+    "name": "responsiveCardJeelBoghraEMPN2198",
+    "displayName": "ResponsiveCard_Jeel_EMPN2198",
+    "guid": "ResponsiveCard_Jeel_EMPN2198",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Responsive Card Custom Visual for Assignment",
+    "supportUrl": "https://support.microsoft.com",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": { "name": "JeelBoghra", "email": "jeel.boghra@gmail.com" },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}
